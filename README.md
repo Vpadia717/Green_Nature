@@ -2,12 +2,32 @@
 
 Here we have made a E - commerce application using java libraries like **Lottie** or **_TensorFlow Lite_**.
 
-It is a *space battle game* where the user will get **_4 Lives_** by default.
+It is a *Gardening tool supplier app* where the user will get **_Oragnic and ecofriendly products for home gardening_**.
 
-1. You need to install Python 3.10.4 from [here](https://www.python.org/downloads/)
-2. You need to install Pygame
+1. You need to install TensorFlow Lite from [here](https://www.tensorflow.org/)
+
 ``` 
-pip install pygame
+//Setting the shared preference to occur once
+new Handler().postDelayed(new Runnable() {
+@Override
+public void run() {
+onBoardingScreen = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
+boolean isFirstTime = onBoardingScreen.getBoolean("firstTime", true);
+
+if (isFirstTime) {
+                    
+SharedPreferences.Editor editor = onBoardingScreen.edit();
+editor.putBoolean("firstTime", false);
+editor.commit();
+
+startActivity(new Intent(MainActivity.this, OnBoardingScreen.class));
+finish();
+} else {
+startActivity(new Intent(MainActivity.this, LoginActivity.class));
+finish();
+}
+}
+}, SPLASH_TIMER);
 ```
 2. OR you can use this [Link](https://pypi.org/project/pygame/)
 3. And the total Requirements is full filled.
