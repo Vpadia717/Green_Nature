@@ -7,7 +7,7 @@ It is a *Gardening tool supplier app* where the user will get **_Oragnic and eco
 1. You need to install TensorFlow Lite from [here](https://www.tensorflow.org/)
 
 ``` 
-        new Handler().postDelayed(new Runnable() {
+new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
 
@@ -28,6 +28,7 @@ It is a *Gardening tool supplier app* where the user will get **_Oragnic and eco
                 }
             }
         }, SPLASH_TIMER);
+
 ```
 2. OR you can use this [Link](https://pypi.org/project/pygame/)
 3. And the total Requirements is full filled.
