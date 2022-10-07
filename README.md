@@ -52,16 +52,12 @@ Reference Code :
     }
 ```
 Reference Images : <br>
-	<br>![alt text](app/src/main/res/drawable-v24/Splash Screen.png)
-	<br>![alt text](app/src/main/res/drawable-v24/Screen 4.png)
-	
-Reference Images : <br>
-	<br>![alt text](app/src/main/res/drawable-v24/Screen 3.png)
-	<br>![alt text](app/src/main/res/drawable-v24/Screen 2.png)
-
-Reference Images : <br>
-	<br>![alt text](app/src/main/res/drawable-v24/Screen 1.png)
-	<br>![alt text](app/src/main/res/drawable-v24/Register.png)
+	<br><img src="app/src/main/res/drawable-v24/Splash Screen.png" alt="drawing" width="300" height="500"/>
+	<br><img src="app/src/main/res/drawable-v24/Screen 4.png" alt="drawing" width="300" height="500"/>
+	<br><img src="app/src/main/res/drawable-v24/Screen 3.png" alt="drawing" width="300" height="500"/>
+	<br><img src="app/src/main/res/drawable-v24/Screen 2.png" alt="drawing" width="300" height="500"/>
+	<br><img src="app/src/main/res/drawable-v24/Screen 1.png" alt="drawing" width="300" height="500"/>
+	<br><img src="app/src/main/res/drawable-v24/Register.png" alt="drawing" width="300" height="500"/>
 	
 This is the README file for Green Nature repository. [^1]
 
