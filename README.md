@@ -6,7 +6,7 @@ It is a *Gardening tool supplier app* where the user will get **_Oragnic and eco
 
 1. You need to install TensorFlow Lite from [here](https://www.tensorflow.org/)
 
-``` 
+```Java
 new Handler().postDelayed(new Runnable() {
 	@Override
 	public void run() {
