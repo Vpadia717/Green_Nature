@@ -6,28 +6,28 @@ It is a *Gardening tool supplier app* where the user will get **_Oragnic and eco
 
 1. You need to install TensorFlow Lite from [here](https://www.tensorflow.org/)
 
-``` 
-//Setting the shared preference to occur once
-new Handler().postDelayed(new Runnable() {
-@Override
-public void run() {
-onBoardingScreen = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
-boolean isFirstTime = onBoardingScreen.getBoolean("firstTime", true);
+``` //Setting the shared preference to occur once
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
 
-if (isFirstTime) {
-                    
-SharedPreferences.Editor editor = onBoardingScreen.edit();
-editor.putBoolean("firstTime", false);
-editor.commit();
+                onBoardingScreen = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
+                boolean isFirstTime = onBoardingScreen.getBoolean("firstTime", true);
 
-startActivity(new Intent(MainActivity.this, OnBoardingScreen.class));
-finish();
-} else {
-startActivity(new Intent(MainActivity.this, LoginActivity.class));
-finish();
-}
-}
-}, SPLASH_TIMER);
+                if (isFirstTime) {
+
+                    SharedPreferences.Editor editor = onBoardingScreen.edit();
+                    editor.putBoolean("firstTime", false);
+                    editor.commit();
+
+                    startActivity(new Intent(MainActivity.this, OnBoardingScreen.class));
+                    finish();
+                } else {
+                    startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                    finish();
+                }
+            }
+        }, SPLASH_TIMER);
 ```
 2. OR you can use this [Link](https://pypi.org/project/pygame/)
 3. And the total Requirements is full filled.
