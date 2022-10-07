@@ -36,28 +36,24 @@ new Handler().postDelayed(new Runnable() {
 * The user needs to login to utilize the services.
 
 Reference Code : 
-```python
-
-pygame.init()
-
-pygame.mixer.init()
-
-clock = pygame.time.Clock()
-
-screen = pygame.display.set_mode((gameConfigs["width"], gameConfigs["height"]))
-
-pygame.display.set_caption(gameConfigs["title"])
-
-fontSmall = pygame.font.Font("assets/fonts/bitcell.ttf", 30)
-
-fontLarge = pygame.font.Font("assets/fonts/bitcell.ttf", 200)
-
-run = True
-actualLevel = 1
+```Java
+    private void SignIn(String email, String pass) {
+        mAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if (task.isSuccessful()) {
+                    startActivity(new Intent(LoginActivity.this, DashBoardActivity.class));
+                    finish();
+                } else {
+                    Toast.makeText(LoginActivity.this, "Some thing went wrong", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
 ```
 Reference Images : <br>
-	<br>![alt text](assets/images/game_preview.png)
+	<br>![alt text]()
 	
-This is the README file for Battle-Space repository. [^1]
+This is the README file for Green Nature repository. [^1]
 
-[^1]: By : Vivek Padia.
+[^1]: By : Green Nature.
