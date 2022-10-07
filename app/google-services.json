@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "807582206385",
+    "project_id": "green-nature-fa9d8",
+    "storage_bucket": "green-nature-fa9d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807582206385:android:6156183d2c38a902225590",
+        "android_client_info": {
+          "package_name": "com.example.greennature"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807582206385-j77ll78blph9vap039u83406fe54sgi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf2GqkPcY2YDcxhk5CjOEWOxK4Gy_Ubfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807582206385-j77ll78blph9vap039u83406fe54sgi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- adding list in navigation menu-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_outline_home_24"
+            android:title="@string/home_txt" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_outline_person_24"
+            android:title="@string/profile_txt" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_outline_shopping_cart_24"
+            android:title="@string/cart_txt" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_outline_article_24"
+            android:title="@string/order_txt" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_outline_phone_24"
+            android:title="@string/contact_txt" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_outline_logout_24"
+            android:title="Logout" />
+    </group>
+
+</menu>

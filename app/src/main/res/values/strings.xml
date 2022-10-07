@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Green Nature</string>
+    <string name="sp_1">Green</string>
+    <string name="sp_2">Nature</string>
+    <string name="welcome">Welcome to,</string>
+    <string name="login_txt">Login to your account</string>
+    <string name="signup_txt"><u>Sign Up</u></string>
+    <string name="login_signup_txt"><u>Login</u></string>
+
+    <string name="tandc_txt"><u>terms and conditions.</u></string>
+    <string name="tandc_txt_signup">By signing up you agree to our \nterms and conditions.</string>
+    <string name="get_start">Let\'s Get Started</string>
+    <string name="next_txt">Next</string>
+    <string name="skip_txt">Skip</string>
+    <string name="swipe_txt">Swipe</string>
+
+    <string name="username_txt">Username</string>
+    <string name="password_txt">Password</string>
+    <string name="email_txt">Email</string>
+    <string name="phone_txt">Phone</string>
+    <string name="logn_txt">Login</string>
+    <string name="pass_forget">Forget Password ?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="dont_account">Don\'t have account ?</string>
+
+    <string name="create_account">Let\'s create your account</string>
+    <string name="new_to">New to</string>
+    <string name="signup_label">Sign Up</string>
+    <string name="have_account">Already have account ?</string>
+    <string name="code_txt">OTP code</string>
+    <string name="verification_txt">Verification code has been sent for</string>
+    <string name="otp_txt">Verify OTP</string>
+
+    <string name="otp_heading1">Not received OTP ?</string>
+    <string name="send_again_txt">Send Again</string>
+    <string name="slogan">We are here for better and creative solution.</string>
+    <string name="home_txt">Home</string>
+    <string name="profile_txt">Profile</string>
+    <string name="cart_txt">Cart</string>
+    <string name="contact_txt">Contact Us</string>
+    <string name="order_txt">Order</string>
+    <string name="logout_txt">Logout</string>
+
+    <!-- Slider Heading -->
+    <string name="first_slide_heading">What is Green Nature ?</string>
+    <string name="second_slide_heading">Why is Green Nature ?</string>
+    <string name="third_slide_heading">Features of Green Nature</string>
+    <string name="four_slide_heading">How is Green Nature helpful ?</string>
+
+    <!-- Slider Details -->
+    <string name="first_slide_desc">The Green nature is gardening material supplier company.</string>
+    <string name="second_slide_desc">The main goal here is to make people aware about importance of forest and “mama earth”.</string>
+    <string name="third_slide_desc">Payment Module, Creative and Responsive UI, Add to cart facility, Offer suggester, Private Chatbot.</string>
+    <string name="four_slide_desc">The Green nature is gardening material supplier company which helps people improve their gardening skills and knowledge.</string>
+
+</resources>
