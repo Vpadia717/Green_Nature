@@ -8,10 +8,10 @@ It is a *Gardening tool supplier app* where the user will get **_Oragnic and eco
 
 ``` 
 new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-
-                onBoardingScreen = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
+	@Override
+	public void run() {
+	
+		onBoardingScreen = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
                 boolean isFirstTime = onBoardingScreen.getBoolean("firstTime", true);
 
                 if (isFirstTime) {
@@ -25,20 +25,15 @@ new Handler().postDelayed(new Runnable() {
                 } else {
                     startActivity(new Intent(MainActivity.this, LoginActivity.class));
                     finish();
-                }
-            }
-        }, SPLASH_TIMER);
+		}
+	}
+}, SPLASH_TIMER);
 
 ```
-2. OR you can use this [Link](https://pypi.org/project/pygame/)
-3. And the total Requirements is full filled.
 
 ### Important Instructions :
 
-* The User by default gets 4 Lives for the game.
-* The Enemy battle ships gets incremented as the game goes on.
-* With the help of **Space Bar** the user shoot the bullets to the Enemy Battle Ships.
-* With the help of Directional keys the User can control the flow of their own Battle Ship.
+* The user needs to login to utilize the services.
 
 Reference Code : 
 ```python
