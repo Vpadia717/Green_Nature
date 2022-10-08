@@ -41,6 +41,9 @@
     <string name="order_txt">Order</string>
     <string name="logout_txt">Logout</string>
 
+    <string name="open">Open</string>
+    <string name="buy">Buy</string>
+
     <!-- Slider Heading -->
     <string name="first_slide_heading">What is Green Nature ?</string>
     <string name="second_slide_heading">Why is Green Nature ?</string>

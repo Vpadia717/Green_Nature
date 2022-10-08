@@ -57,39 +57,33 @@ public class LoginActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         //Login button
-        login_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        login_btn.setOnClickListener(view -> {
 
-                if (!isConnected(LoginActivity.this)) {
-                    showCustomDialog();
-                }
-
-                //Applying Validation on run time data
-                if (!validateLoginEmailData() | !validateLoginPasswordData()) {
-                    return;
-                }
-
-                String email = email_txt.getText().toString().trim();
-                String pass = pass_txt.getText().toString().trim();
-                SignIn(email, pass);
+            if (!isConnected(LoginActivity.this)) {
+                showCustomDialog();
             }
+
+            //Applying Validation on run time data
+            if (!validateLoginEmailData() | !validateLoginPasswordData()) {
+                return;
+            }
+
+            String email = email_txt.getText().toString().trim();
+            String pass = pass_txt.getText().toString().trim();
+            SignIn(email, pass);
         });
 
         //Calling register activity
-        reg_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        reg_btn.setOnClickListener(view -> {
 
-                Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
+            Intent intent = new Intent(getApplicationContext(), SignUpActivity.class);
 
-                Pair[] pairs = new Pair[1];
+            Pair[] pairs = new Pair[1];
 
-                pairs[0] = new Pair<View, String>(findViewById(R.id.gn_login_reg_btn), "transition_register");
+            pairs[0] = new Pair<View, String>(findViewById(R.id.gn_login_reg_btn), "transition_register");
 
-                ActivityOptions activityOptions = ActivityOptions.makeSceneTransitionAnimation(LoginActivity.this, pairs);
-                startActivity(intent, activityOptions.toBundle());
-            }
+            ActivityOptions activityOptions = ActivityOptions.makeSceneTransitionAnimation(LoginActivity.this, pairs);
+            startActivity(intent, activityOptions.toBundle());
         });
     }
 
