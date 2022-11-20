@@ -59,7 +59,10 @@ Reference Images : <br>
 	<img src="app/src/main/res/drawable-v24/Screen 2.svg" alt="drawing" height="450"/>
 	<br><img src="app/src/main/res/drawable-v24/Screen 3.svg" alt="drawing" height="450"/>
 	<img src="app/src/main/res/drawable-v24/Screen 4.svg" alt="drawing" height="450"/>
-	<img src="app/src/main/res/drawable-v24/Register.svg" alt="drawing" height="450"/>
+	<img src="app/src/main/res/drawable-v24/Login.svg" alt="drawing" height="450"/>
+	<br><img src="app/src/main/res/drawable-v24/Register.svg" alt="drawing" height="450"/>
+	<img src="app/src/main/res/drawable-v24/OTP.svg" alt="drawing" height="450"/>
+	<img src="app/src/main/res/drawable-v24/Dashboard.svg" alt="drawing" height="450"/>
 	
 This is the README file for Green Nature repository. [^1]
 
