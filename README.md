@@ -2,7 +2,7 @@
 
 Here we have made a E - commerce application using java libraries like **Lottie** or **_TensorFlow Lite_**.
 
-<p align="center"><br><img src="app/src/main/res/drawable-v24/Green Nature.svg" alt="drawing" height="550"/></p>
+<p align="center"><br><img src="app/src/main/res/drawable-v24/Green Nature.svg" alt="drawing" height="600"/></p>
 
 It is a *Gardening tool supplier app* where the user will get **_Oragnic and ecofriendly products for home gardening_**.
 
@@ -54,12 +54,12 @@ Reference Code :
     }
 ```
 Reference Images : <br>
-	<br><img src="app/src/main/res/drawable-v24/Splash Screen.png" alt="drawing" width="200" height="450"/>
-	<img src="app/src/main/res/drawable-v24/Screen 4.png" alt="drawing" width="200" height="450"/>
-	<img src="app/src/main/res/drawable-v24/Screen 3.png" alt="drawing" width="200" height="450"/>
-	<br><img src="app/src/main/res/drawable-v24/Screen 2.png" alt="drawing" width="200" height="450"/>
-	<img src="app/src/main/res/drawable-v24/Screen 1.png" alt="drawing" width="200" height="450"/>
-	<img src="app/src/main/res/drawable-v24/Register.png" alt="drawing" width="200" height="450"/>
+	<br><img src="app/src/main/res/drawable-v24/Splash Screen.svg" alt="drawing" height="450"/>
+	<img src="app/src/main/res/drawable-v24/Screen 1.svg" alt="drawing" height="450"/>
+	<img src="app/src/main/res/drawable-v24/Screen 2.svg" alt="drawing" height="450"/>
+	<br><img src="app/src/main/res/drawable-v24/Screen 3.svg" alt="drawing" height="450"/>
+	<img src="app/src/main/res/drawable-v24/Screen 4.svg" alt="drawing" height="450"/>
+	<img src="app/src/main/res/drawable-v24/Register.svg" alt="drawing" height="450"/>
 	
 This is the README file for Green Nature repository. [^1]
 
