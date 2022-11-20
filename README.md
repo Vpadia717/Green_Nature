@@ -2,6 +2,8 @@
 
 Here we have made a E - commerce application using java libraries like **Lottie** or **_TensorFlow Lite_**.
 
+<p align="center"><br><img src="app/src/main/res/drawable-v24/Green Nature.svg" alt="drawing" height="650"/></p>
+
 It is a *Gardening tool supplier app* where the user will get **_Oragnic and ecofriendly products for home gardening_**.
 
 1. You need to install TensorFlow Lite from [here](https://www.tensorflow.org/)
